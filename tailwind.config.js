@@ -10,7 +10,11 @@ module.exports = {
       "frenchgray": "#B1B5BB",
       "white": "#FFFFFF"
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background': "url('./src/assets/images/woods.jpg')"
+      }
+    },
   },
   plugins: [],
 }
