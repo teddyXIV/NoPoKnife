@@ -1,7 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{html,js, jsx, ts, tsx}"],
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
+    colors: {
+      'citrine': '#DABF02',
+      'feldgrau': '#485550',
+      'persianorange': '#D2915D',
+      "imperialred": "#ED3341",
+      "frenchgray": "#B1B5BB",
+      "white": "#FFFFFF"
+    },
     extend: {},
   },
   plugins: [],
